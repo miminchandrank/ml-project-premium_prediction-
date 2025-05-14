@@ -1,64 +1,70 @@
 # 🚀 Health Insurance Cost Predictor – AI-Powered Insurance Estimation
 
-Welcome to the **Health Insurance Cost Predictor**, a machine learning-based web application designed to estimate insurance premiums based on personal, financial, and health-related information.
+An interactive machine learning web app that predicts health insurance premiums based on personal, lifestyle, and financial inputs. Built with **Python**, **Streamlit**, and powerful ML algorithms like **Linear Regression** and **XGBoost**.
 
-🔗 **Live Demo**: [Try the App](https://lnkd.in/g9Zdrh6g)
+🔗 **Live Demo**: [Try the App](https://lnkd.in/g9Zdrh6g)  
+📽️ **Video Demo**: [Watch on LinkedIn](https://www.linkedin.com/posts/miminchandrank_machinelearning-ai-healthtech-activity-7306338204939427840-5a5a?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFD4aN8BBSizqogKnOr2eBg_WSmXdqUej4w)
 
 ---
 
 ## 🌟 Project Motivation
 
-Health insurance costs can vary significantly based on factors like age, BMI, income, lifestyle, and medical history. This project helps users understand how these variables affect insurance pricing and provides an intelligent estimate of insurance costs using machine learning.
+Insurance premiums vary widely based on multiple factors such as age, BMI, income, employment type, and smoking status. This app helps users:
+- Understand how these factors influence insurance costs.
+- Receive instant, intelligent cost estimates through an AI-powered interface.
 
 ---
 
-## 🔍 Project Overview
+## 🔍 Overview
 
-This application allows users to input their details and receive an accurate estimate of health insurance costs powered by ML models. It uses both **Linear Regression** and **XGBoost** to provide predictions.
+The application takes various user inputs and predicts health insurance costs in real-time using trained machine learning models. It leverages:
+- A **baseline Linear Regression model** for transparency.
+- An **XGBoost Regressor** for high accuracy and robustness.
 
-### 🎯 Key Features:
-- Takes inputs like age, gender, smoking status, dependents, income, employment, BMI category, and more.
-- Predicts cost instantly via a user-friendly web interface.
-- Deployed using **Streamlit Cloud** for public access.
+---
+
+## 🎯 Key Features
+
+- 📝 User inputs: age, gender, employment status, smoking, income, BMI category, dependents, etc.
+- ⚙️ Backend models: Linear Regression and XGBoost Regressor
+- 🌐 Streamlit-based web app: lightweight, responsive, and easy to use
+- 📈 Real-time prediction: output displayed instantly on the interface
 
 ---
 
 ## 🛠️ Tech Stack
 
-### 🔹 Machine Learning Models:
-- ✅ **Linear Regression** – Baseline model
-- ✅ **XGBoost Regressor** – High-performance model
+### 🧠 Machine Learning
+- **Linear Regression** (Scikit-learn)
+- **XGBoost Regressor**
 
-### 🔹 Programming & Libraries:
-- **Python**  
-- **Pandas**, **NumPy** – Data handling  
-- **Scikit-learn** – Model building & preprocessing  
-- **XGBoost** – Boosting model  
-- **Streamlit** – Frontend + deployment
+### 🧰 Programming & Libraries
+- **Python**
+- **Pandas**, **NumPy** – Data manipulation
+- **Scikit-learn** – Preprocessing and modeling
+- **XGBoost** – Gradient boosting framework
+- **Streamlit** – Web deployment and UI
 
 ---
 
 ## ⚙️ How It Works
 
-1. **User Inputs**  
-   Personal, financial, and health-related details.
+1. **User Input Form**  
+   Streamlit UI collects personal, financial, and health data.
 
 2. **Model Inference**  
-   Trained ML model predicts the estimated insurance cost.
+   Data is preprocessed and passed into a trained model for prediction.
 
-3. **Result Display**  
-   Estimated cost is shown instantly on the app interface.
+3. **Cost Estimation**  
+   Predicted insurance cost is instantly displayed with explanatory context.
 
 ---
 
 ## 🧠 Learning Highlights
 
-- Data preprocessing & imputation techniques  
-- Feature engineering for categorical & numerical data  
-- Model selection & tuning  
-- Streamlit-based app deployment  
-- UI/UX optimization for smoother interaction
-
----
-
+- Feature engineering for categorical and continuous variables
+- Handling missing values and scaling
+- Comparing models and evaluating RMSE
+- App deployment using Streamlit Cloud
+- Customizing layout for better UX
 
